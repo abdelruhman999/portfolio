@@ -17,7 +17,7 @@ const IconsLink: React.FC = () => {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/01070889446"
+        href="https://wa.me/+0201070889446"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"

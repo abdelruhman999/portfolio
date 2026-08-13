@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import logo from "../../public/assets/ChatGPT Image Aug 11, 2026, 06_46_31 PM.png";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Props {}
 
@@ -60,6 +61,9 @@ const About: React.FC<Props> = () => {
           Full Stack & 3D Web Developer
         </p>
 
+        <Link
+        href="https://wa.me/+0201070889446"
+        >
         <Button
           className="
             bg-[#ff4500]
@@ -75,6 +79,7 @@ const About: React.FC<Props> = () => {
         >
           Contact Me
         </Button>
+        </Link>
       </div>
 
       {/* Image */}
