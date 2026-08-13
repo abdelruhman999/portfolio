@@ -15,15 +15,29 @@ const Portofolio: React.FC<Props> = () => {
   return (
     <div className='w-full  flex flex-col gap-20'>
       <Navbar/>
-      <About/>
+
+       <section className='w-full -scroll-mt-52' id="about" >
+        <About />
+      </section>
+
       <OtherAboutMe/>
-      <ToolsTechnologies/>
-      <MyProjects/>
+
+       <section className='w-full' id="technologies">
+        <ToolsTechnologies />
+      </section>
+
+       <section className='w-full' id="projects">
+        <MyProjects />
+      </section>
+
       <div className=' flex flex-col  text-center   items-center w-full gap-2'>
       <p className='dancing-script-uniquifier w-full'>
         Be My Next Client
       </p>
-      <Footer/>
+
+     <section className='w-full' id="contact">
+        <Footer />
+      </section>
       </div>
     </div>
   );

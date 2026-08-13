@@ -1,8 +1,8 @@
 export const elementNavbar = [
-    {id:1, name: 'About', link: '/'},
-    {id:2, name: 'Workflow', link: '/'},
-    {id:3, name: 'Portfolio', link: '/'},
-    {id:4, name: 'Contact', link: '/'},
+    {id:1, name: 'About', link: '#about'},
+    {id:2, name: 'Tools & Technologies', link: '#technologies'},
+    {id:3, name: 'Projects', link: '#projects'},
+    {id:4, name: 'Contact', link: '#contact'},
 
 ]
 export const elementAboutMe = [

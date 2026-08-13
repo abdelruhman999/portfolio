@@ -38,7 +38,7 @@ const projects = [
   link:"https://www.havirealestate.com/website/home"
 },
 {
-  id:3, 
+  id:2, 
   img:alufco.src,
   title:"Alufco",
   type:"Available",
@@ -46,7 +46,7 @@ const projects = [
   link:"https://www.alufcoo.com/website/home"
 },
 {
-id:5, 
+id:3, 
 img:goagyncy.src,
 title:"3Go Agyncy",
 type:"Available",
@@ -62,7 +62,7 @@ link:"https://3go-agency.vercel.app/home"
   link:"https://www.tasawuk.com/website/home"
 },
 {
-id:2, 
+id:5, 
 img:train.src,
 title:"Train Booking",
 type:"UnAvailable",
@@ -70,7 +70,7 @@ description:"A responsive train booking platform with schedule search, ticket se
 link:"https://www.trainbooking.com/website/home"
 },
 {
-id:2, 
+id:6, 
 img:merty.src,
 title:"Merty Inspiration",
 type:"UnAvailable",
