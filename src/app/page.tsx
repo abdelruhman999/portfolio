@@ -44,7 +44,7 @@ export default function Home() {
       {/* Image */}
       <div
           className="
-            flex h-full w-[80%]   items-end justify-center
+            flex h-full w-[50%]   items-end justify-center
             max-sm:w-full
             max-sm:h-[70%]
           "
