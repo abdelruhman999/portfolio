@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 const IconsLink: React.FC = () => {
   return (
-    <div className="flex items-center gap-[30px]">
+    <div className="flex text-white items-center gap-[30px]">
       
       {/* LinkedIn */}
       <a

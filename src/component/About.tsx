@@ -28,7 +28,7 @@ const About: React.FC<Props> = () => {
           max-sm:text-center
         "
       >
-        <p className="text-4xl cursor-pointer font-bold max-sm:text-3xl">
+        <p className="text-4xl text-white cursor-pointer font-bold max-sm:text-3xl">
           Abdelruhman Ahmed
         </p>
 

@@ -77,7 +77,7 @@ const OtherAboutMe: React.FC<Props> = () => {
               </CardHeader>
 
               <CardContent>
-                <p className="max-sm:text-sm">
+                <p className="max-sm:text-sm text-white">
                   {el.description}
                 </p>
               </CardContent>

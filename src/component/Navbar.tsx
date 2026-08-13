@@ -31,6 +31,7 @@ const Navbar: React.FC<Props> = () => {
           cursor-pointer
           font-bold
           max-sm:text-xl
+          text-white
         "
       >
         Abdelruhman{" "}

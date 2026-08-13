@@ -22,7 +22,7 @@ const MyProjects: React.FC<Props> = () => {
       <Card className="border-gray-500 bg-neutral-800/50 flex flex-col items-start">
         
         <CardHeader className="max-sm:p-4">
-          <CardTitle className="text-4xl max-sm:text-3xl">
+          <CardTitle className="text-4xl text-white max-sm:text-3xl">
             My Projects
           </CardTitle>
 
@@ -57,6 +57,7 @@ const MyProjects: React.FC<Props> = () => {
                   max-w-sm
                   pt-0
                   border-gray-500
+                  text-white
                 "
               >
                 <Image

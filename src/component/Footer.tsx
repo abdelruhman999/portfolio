@@ -27,7 +27,7 @@ const Footer: React.FC<Props> = () => {
       "
     >
       <CardHeader className="max-sm:p-4">
-        <CardTitle className="text-2xl max-sm:text-xl">
+        <CardTitle className="text-2xl text-white max-sm:text-xl">
           Let's Turn Ideas Into Digital Experiences
         </CardTitle>
       </CardHeader>
