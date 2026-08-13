@@ -79,7 +79,7 @@ const OtherAboutMe: React.FC<Props> = () => {
               className="
                 bg-neutral-800/50
                 w-[38%]
-                min-h-[200px]
+                min-h-[220px]
                 border
                 border-gray-600
 
