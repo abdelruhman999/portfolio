@@ -91,8 +91,8 @@ const BrandsCard: React.FC<Props> = () => {
           ))}
       </CarouselContent>
 
-      <CarouselPrevious className="border-[#ff4500] max-lg:hidden" />
-      <CarouselNext className="border-[#ff4500] max-lg:hidden" />
+      {/* <CarouselPrevious className="border-[#ff4500] max-lg:hidden" />
+      <CarouselNext className="border-[#ff4500] max-lg:hidden" /> */}
     </Carousel>
   );
 };
