@@ -6,7 +6,7 @@ interface Props {}
 
 const ToolsTechnologies: React.FC<Props> = () => {
   return (
-    <div className="px-30 max-sm:px-5">
+    <div className="px-30 max-lg:px-5">
       <Card
         className="
           bg-neutral-800/50
@@ -16,8 +16,8 @@ const ToolsTechnologies: React.FC<Props> = () => {
           border border-gray-600
         "
       >
-        <CardHeader className="max-sm:p-4">
-          <CardTitle className="text-white text-4xl max-sm:text-2xl">
+        <CardHeader className="max-lg:p-4">
+          <CardTitle className="text-white text-4xl max-lg:text-2xl">
             Tools & Technologies
           </CardTitle>
 
@@ -34,9 +34,9 @@ const ToolsTechnologies: React.FC<Props> = () => {
             flex items-center justify-center
             text-center
 
-            max-sm:px-4
-            max-sm:text-sm
-            max-sm:leading-6
+            max-lg:px-4
+            max-lg:text-sm
+            max-lg:leading-6
           "
         >
           <p>

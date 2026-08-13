@@ -11,11 +11,28 @@ interface Props {}
 
 const OtherAboutMe: React.FC<Props> = () => {
   return (
-    <div className="px-30 gap-5 flex flex-col items-start max-sm:px-5">
-      
+    <div
+      className="
+        px-30
+        gap-5
+        flex
+        flex-col
+        items-start
+
+        max-lg:px-5
+      "
+    >
       {/* Title */}
       <div className="flex flex-col gap-1">
-        <p className="font-bold text-4xl text-white max-sm:text-3xl">
+        <p
+          className="
+            font-bold
+            text-4xl
+            text-white
+
+            max-lg:text-3xl
+          "
+        >
           About Me
         </p>
 
@@ -31,9 +48,9 @@ const OtherAboutMe: React.FC<Props> = () => {
           text-wrap
           w-[60%]
 
-          max-sm:w-full
-          max-sm:text-sm
-          max-sm:leading-6
+          max-lg:w-full
+          max-lg:text-sm
+          max-lg:leading-6
         "
       >
         Full Stack Developer with experience building modern web applications
@@ -51,8 +68,8 @@ const OtherAboutMe: React.FC<Props> = () => {
           justify-center
           gap-5
 
-          max-sm:flex-col
-          max-sm:gap-4
+          max-lg:flex-col
+          max-lg:gap-4
         "
       >
         {elementAboutMe.map((el) => {
@@ -66,18 +83,30 @@ const OtherAboutMe: React.FC<Props> = () => {
                 border
                 border-gray-600
 
-                max-sm:w-full
-                max-sm:min-h-[180px]
+                max-lg:w-full
+                max-lg:min-h-[180px]
               "
             >
               <CardHeader>
-                <CardTitle className="text-[#ff4500] max-sm:text-xl">
+                <CardTitle
+                  className="
+                    text-[#ff4500]
+
+                    max-lg:text-xl
+                  "
+                >
                   {el.header}
                 </CardTitle>
               </CardHeader>
 
               <CardContent>
-                <p className="max-sm:text-sm text-white">
+                <p
+                  className="
+                    text-white
+
+                    max-lg:text-sm
+                  "
+                >
                   {el.description}
                 </p>
               </CardContent>

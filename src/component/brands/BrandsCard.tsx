@@ -32,7 +32,7 @@ const BrandsCard: React.FC<Props> = () => {
   return (
     <Carousel
       ref={cardRef}
-      className="w-full px-10 max-sm:px-6"
+      className="w-full px-10 max-lg:px-6"
     >
       <CarouselContent className="-ml-1">
         {showBalls &&
@@ -43,21 +43,32 @@ const BrandsCard: React.FC<Props> = () => {
                 basis-1/6
                 pl-1
 
-                max-sm:basis-1/2
+                max-lg:basis-1/4
+                max-sm:basis-1/3
               "
             >
               <div className="flex items-center justify-center gap-0.5">
-                
                 <div
                   className="
                     size-[100px]
                     flex flex-col items-center
-                    max-sm:size-[80px]
+
+                    max-lg:size-[80px]
+                    max-sm:size-[70px]
                   "
                 >
                   <BallCanvas icon={technology.icon} />
 
-                  <p className="text-center text-white text-sm font-semibold max-sm:text-xs">
+                  <p
+                    className="
+                      text-center
+                      text-white
+                      text-sm
+                      font-semibold
+
+                      max-lg:text-xs
+                    "
+                  >
                     {technology.name}
                   </p>
                 </div>
@@ -66,9 +77,12 @@ const BrandsCard: React.FC<Props> = () => {
                   <div
                     className="
                       w-10
-                      border border-dashed border-[#ff4500]
+                      border
+                      border-dashed
+                      border-[#ff4500]
 
-                      max-sm:w-5
+                      max-lg:w-5
+                      max-sm:w-3
                     "
                   />
                 )}
@@ -77,8 +91,8 @@ const BrandsCard: React.FC<Props> = () => {
           ))}
       </CarouselContent>
 
-      <CarouselPrevious className="border-[#ff4500] max-sm:hidden" />
-      <CarouselNext className="border-[#ff4500] max-sm:hidden" />
+      <CarouselPrevious className="border-[#ff4500] max-lg:hidden" />
+      <CarouselNext className="border-[#ff4500] max-lg:hidden" />
     </Carousel>
   );
 };

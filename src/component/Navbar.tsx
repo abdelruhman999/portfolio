@@ -17,10 +17,10 @@ const Navbar: React.FC<Props> = () => {
         border-b
         border-b-gray-600
 
-        max-sm:flex-col
-        max-sm:gap-4
-        max-sm:px-5
-        max-sm:py-4
+        max-lg:flex-col
+        max-lg:gap-4
+        max-lg:px-5
+        max-lg:py-4
       "
     >
       {/* Logo */}
@@ -30,8 +30,8 @@ const Navbar: React.FC<Props> = () => {
           text-2xl
           cursor-pointer
           font-bold
-          max-sm:text-xl
           text-white
+          max-lg:text-xl
         "
       >
         Abdelruhman{" "}
@@ -50,18 +50,22 @@ const Navbar: React.FC<Props> = () => {
           gap-4
           text-md
 
-          max-sm:w-full
-          max-sm:justify-center
-          max-sm:gap-5
-          max-sm:text-sm
-          max-sm:flex-wrap
+          max-lg:w-full
+          max-lg:justify-center
+          max-lg:gap-5
+          max-lg:text-sm
+          max-lg:flex-wrap
         "
       >
         {elementNavbar.map((item) => (
           <Link
             key={item.id}
             href={item.link}
-            className="hover:text-[#ff4500] transition-colors duration-200"
+            className="
+              hover:text-[#ff4500]
+              transition-colors
+              duration-200
+            "
           >
             {item.name}
           </Link>

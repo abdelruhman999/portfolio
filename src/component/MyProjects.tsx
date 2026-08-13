@@ -8,41 +8,51 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { projects } from "@/constants";
 import Link from "next/link";
+import { Badge } from "./ui/badge";
 
 interface Props {}
 
 const MyProjects: React.FC<Props> = () => {
   return (
-    <div className="px-30 max-sm:px-5">
+    <div className="px-30 max-lg:px-5">
       <Card className="border-gray-500 bg-neutral-800/50 flex flex-col items-start">
-        
-        <CardHeader className="max-sm:p-4">
-          <CardTitle className="text-4xl text-white max-sm:text-3xl">
+
+        {/* Header */}
+        <CardHeader className="max-lg:p-4">
+          <CardTitle className="text-4xl text-white max-lg:text-3xl">
             My Projects
           </CardTitle>
 
-          <CardDescription className="text-gray-500 text-md max-sm:text-sm max-sm:leading-6">
+          <CardDescription
+            className="
+              text-gray-500
+              text-md
+
+              max-lg:text-sm
+              max-lg:leading-6
+            "
+          >
             A collection of projects where I turn ideas into modern, scalable,
             and engaging digital experiences.
           </CardDescription>
         </CardHeader>
 
+        {/* Projects */}
         <CardContent
           className="
             w-full
             grid
             grid-cols-2
-            lg:grid-cols-3
+            xl:grid-cols-3
             gap-5
             mt-5
 
-            max-sm:grid-cols-1
-            max-sm:px-4
+            max-lg:grid-cols-1
+            max-lg:px-4
           "
         >
           {projects.map((el) => {
@@ -60,6 +70,7 @@ const MyProjects: React.FC<Props> = () => {
                   text-white
                 "
               >
+                {/* Image */}
                 <Image
                   src={el.img}
                   alt={el.title}
@@ -76,9 +87,10 @@ const MyProjects: React.FC<Props> = () => {
                   "
                 />
 
+                {/* Info */}
                 <CardHeader>
                   <div className="flex items-center justify-between gap-2">
-                    <CardTitle className="max-sm:text-lg">
+                    <CardTitle className="max-lg:text-lg">
                       {el.title}
                     </CardTitle>
 
@@ -95,11 +107,12 @@ const MyProjects: React.FC<Props> = () => {
                     </CardAction>
                   </div>
 
-                  <CardDescription className="mt-2 max-sm:text-sm">
+                  <CardDescription className="mt-2 max-lg:text-sm">
                     {el.description}
                   </CardDescription>
                 </CardHeader>
 
+                {/* Button */}
                 <CardFooter>
                   {el.type === "Available" && (
                     <Link
@@ -108,7 +121,15 @@ const MyProjects: React.FC<Props> = () => {
                       rel="noopener noreferrer"
                       className="w-full"
                     >
-                      <Button className="w-full bg-[#ff4500] hover:bg-gray-500 duration-200 cursor-pointer">
+                      <Button
+                        className="
+                          w-full
+                          bg-[#ff4500]
+                          hover:bg-gray-500
+                          duration-200
+                          cursor-pointer
+                        "
+                      >
                         View Project
                       </Button>
                     </Link>

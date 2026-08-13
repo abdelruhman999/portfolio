@@ -9,30 +9,54 @@ const About: React.FC<Props> = () => {
   return (
     <div
       className="
-        w-full px-30 flex items-center justify-between
+        w-full
+        px-30
+        flex
+        items-center
+        justify-between
 
-        max-sm:flex-col
-        max-sm:items-center
-        max-sm:justify-center
-        max-sm:gap-10
-        max-sm:px-5
+        max-lg:flex-col
+        max-lg:items-center
+        max-lg:justify-center
+        max-lg:gap-10
+        max-lg:px-5
       "
     >
       {/* Content */}
       <div
         className="
-          flex flex-col items-start gap-4
+          flex
+          flex-col
+          items-start
+          gap-4
 
-          max-sm:w-full
-          max-sm:items-center
-          max-sm:text-center
+          max-lg:w-full
+          max-lg:items-center
+          max-lg:text-center
         "
       >
-        <p className="text-4xl text-white cursor-pointer font-bold max-sm:text-3xl">
+        <p
+          className="
+            text-4xl
+            text-white
+            cursor-pointer
+            font-bold
+
+            max-lg:text-3xl
+          "
+        >
           Abdelruhman Ahmed
         </p>
 
-        <p className="text-lg text-[#ff4500] font-semibold max-sm:text-base">
+        <p
+          className="
+            text-lg
+            text-[#ff4500]
+            font-semibold
+
+            max-lg:text-base
+          "
+        >
           Full Stack & 3D Web Developer
         </p>
 
@@ -66,8 +90,8 @@ const About: React.FC<Props> = () => {
           bg-neutral-800/50
           border-[#ff4500]
 
-          max-sm:w-[220px]
-          max-sm:h-[290px]
+          max-lg:w-[220px]
+          max-lg:h-[290px]
         "
       >
         <Image
