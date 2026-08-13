@@ -4,9 +4,9 @@ import redux from "../assets/tech/redux.png";
 import tailwind from "../assets/tech/tailwind.png";
 import nodejs from "../assets/tech/nodejs.png";
 import typescript from "../assets/tech/typescript.png";
-import javascript from "../assets/tech/javascript.png";
 import git from "../assets/tech/git.png";
 import threejs from "../assets/tech/Three.js_Icon.svg.webp";
+import javascript from "../assets/tech/javascript.png";
 import css from "../assets/tech/bootstrap-social-media-icons-html-css-js-logo-11563293145uql7yehdq3.png";
 import html from "../assets/tech/html.png";
 import mongodb from "../assets/tech/mongodb.png";
@@ -20,7 +20,7 @@ import merty from "../../public/assets/492190326_122111197868829549_215047253638
 const technologies = [
   // { id: 1, name: "HTML 5", icon: html.src },
   // { id: 2, name: "CSS 3", icon: css.src },
-  // { id: 3, name: "JavaScript", icon: javascript.src },
+  { id: 3, name: "JavaScript", icon: javascript.src },
   { id: 4, name: "TypeScript", icon: typescript.src },
   { id: 5, name: "React JS", icon: reactjs.src },
   { id: 6, name: "Tailwind CSS", icon: tailwind.src },
