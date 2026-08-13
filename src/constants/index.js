@@ -7,8 +7,8 @@ import typescript from "../assets/tech/typescript.png";
 import git from "../assets/tech/git.png";
 import threejs from "../assets/tech/Three.js_Icon.svg.webp";
 import javascript from "../assets/tech/javascript.png";
-import css from "../assets/tech/bootstrap-social-media-icons-html-css-js-logo-11563293145uql7yehdq3.png";
-import html from "../assets/tech/html.png";
+import nextjs from "../assets/tech/nextjs.jpg";
+import nest from "../assets/tech/flat,750x,075,f-pad,750x1000,f8f8f8.jpg";
 import mongodb from "../assets/tech/mongodb.png";
 import havi from "../../public/assets/havi.jpg";
 import train from "../../public/assets/train.jpg";
@@ -18,17 +18,14 @@ import goagyncy from "../../public/assets/goagyncy.jpg";
 import merty from "../../public/assets/492190326_122111197868829549_2150472536382309674_n.jpg";
 
 const technologies = [
-  // { id: 1, name: "HTML 5", icon: html.src },
-  // { id: 2, name: "CSS 3", icon: css.src },
-  { id: 3, name: "JavaScript", icon: javascript.src },
-  // { id: 4, name: "TypeScript", icon: typescript.src },
-  { id: 5, name: "React JS", icon: reactjs.src },
-  { id: 6, name: "Tailwind CSS", icon: tailwind.src },
-  { id: 7, name: "Redux Toolkit", icon: redux.src },
-  { id: 8, name: "Node JS", icon: nodejs.src },
-  { id: 9, name: "MongoDB", icon: mongodb.src },
-  { id: 10, name: "Three.js", icon: threejs.src },
-  { id: 11, name: "Git", icon: git.src },
+  { id: 1, name: "Next.js", icon: nextjs.src },
+  { id: 2, name: "React JS", icon: reactjs.src },
+  { id: 3, name: "TypeScript", icon: typescript.src },
+  { id: 4, name: "Tailwind CSS", icon: tailwind.src },
+  { id: 5, name: "Redux Toolkit", icon: redux.src },
+  { id: 6, name: "NestJS", icon: nest.src },
+  { id: 7, name: "Node.js", icon: nodejs.src },
+  { id: 8, name: "Three.js", icon: threejs.src },
 ];
 
 const projects = [
