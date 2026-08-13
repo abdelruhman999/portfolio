@@ -54,6 +54,7 @@ const Navbar: React.FC<Props> = () => {
           max-lg:justify-center
           max-lg:gap-5
           max-lg:text-sm
+          max-sm:text-[12px]
           max-lg:flex-wrap
         "
       >
