@@ -18,9 +18,9 @@ import goagyncy from "../../public/assets/goagyncy.jpg";
 import merty from "../../public/assets/492190326_122111197868829549_2150472536382309674_n.jpg";
 
 const technologies = [
-  { id: 1, name: "HTML 5", icon: html.src },
-  { id: 2, name: "CSS 3", icon: css.src },
-  { id: 3, name: "JavaScript", icon: javascript.src },
+  // { id: 1, name: "HTML 5", icon: html.src },
+  // { id: 2, name: "CSS 3", icon: css.src },
+  // { id: 3, name: "JavaScript", icon: javascript.src },
   { id: 4, name: "TypeScript", icon: typescript.src },
   { id: 5, name: "React JS", icon: reactjs.src },
   { id: 6, name: "Tailwind CSS", icon: tailwind.src },

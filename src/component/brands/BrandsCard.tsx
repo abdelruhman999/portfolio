@@ -57,7 +57,7 @@ const BrandsCard: React.FC<Props> = () => {
                 >
                   <BallCanvas icon={technology.icon} />
 
-                  <p className="text-center text-sm font-semibold max-sm:text-xs">
+                  <p className="text-center text-white text-sm font-semibold max-sm:text-xs">
                     {technology.name}
                   </p>
                 </div>
