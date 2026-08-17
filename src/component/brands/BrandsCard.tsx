@@ -34,7 +34,7 @@ const BrandsCard: React.FC<Props> = () => {
       ref={cardRef}
       className="w-full px-10 max-lg:px-6"
     >
-      <CarouselContent className="-ml-1">
+      <CarouselContent className="-ml-1 ">
         {showBalls &&
           technologies?.map((technology, index) => (
             <CarouselItem
@@ -52,7 +52,6 @@ const BrandsCard: React.FC<Props> = () => {
                   className="
                     size-[100px]
                     flex flex-col items-center
-
                     max-lg:size-[80px]
                     max-sm:size-[70px]
                   "
@@ -65,7 +64,7 @@ const BrandsCard: React.FC<Props> = () => {
                       text-white
                       text-sm
                       font-semibold
-
+                     max-sm:text-[10px]
                       max-lg:text-xs
                     "
                   >

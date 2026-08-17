@@ -31,13 +31,13 @@ const Portofolio: React.FC<Props> = () => {
       </section>
 
       <div className=' flex flex-col  text-center   items-center w-full gap-2'>
-      <p className='dancing-script-uniquifier w-full'>
-        Be My Next Client
-      </p>
+        <p className='dancing-script-uniquifier w-full'>
+          Be My Next Client
+        </p>
 
-     <section className='w-full' id="contact">
-        <Footer />
-      </section>
+        <section className='w-full' id="contact">
+          <Footer />
+         </section>
       </div>
     </div>
   );
